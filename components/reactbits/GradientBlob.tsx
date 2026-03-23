@@ -12,8 +12,8 @@ interface BlobProps {
 
 const sizeMap = { sm: 'h-48 w-48', md: 'h-72 w-72', lg: 'h-96 w-96', xl: 'h-[600px] w-[600px]' }
 const colorMap = {
-  accent: 'rgba(105,106,172,0.45)',
-  primary: 'rgba(62,63,126,0.45)',
+  accent: 'rgba(51,102,204,0.45)',
+  primary: 'rgba(26,40,86,0.45)',
   secondary: 'rgba(133,135,227,0.35)',
 }
 

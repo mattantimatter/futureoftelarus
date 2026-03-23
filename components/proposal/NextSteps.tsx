@@ -91,7 +91,7 @@ export function NextSteps({ content, proposalToken }: NextStepsProps) {
               className={cn(
                 'relative overflow-hidden rounded-2xl border p-6 transition-all duration-300',
                 action.primary
-                  ? 'border-accent/30 bg-gradient-to-b from-accent/[0.08] to-transparent hover:shadow-[0_0_30px_rgba(105,106,172,0.15)]'
+                  ? 'border-accent/30 bg-gradient-to-b from-accent/[0.08] to-transparent hover:shadow-[0_0_30px_rgba(51,102,204,0.15)]'
                   : 'border-foreground/[0.08] bg-foreground/[0.02] hover:border-foreground/[0.15]'
               )}
             >

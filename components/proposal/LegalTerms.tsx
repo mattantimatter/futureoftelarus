@@ -41,7 +41,7 @@ export function LegalTerms({ content }: LegalTermsProps) {
             return (
               <div
                 key={section.title}
-                className="overflow-hidden rounded-xl border border-[rgba(105,106,172,0.12)] bg-[rgba(10,10,15,0.5)]"
+                className="overflow-hidden rounded-xl border border-[rgba(51,102,204,0.12)] bg-[rgba(10,10,15,0.5)]"
               >
                 <button
                   className="flex w-full items-center justify-between p-5 text-left"
@@ -63,7 +63,7 @@ export function LegalTerms({ content }: LegalTermsProps) {
                     isOpen ? 'max-h-[600px]' : 'max-h-0'
                   )}
                 >
-                  <ul className="space-y-2 border-t border-[rgba(105,106,172,0.08)] px-5 pb-5 pt-4">
+                  <ul className="space-y-2 border-t border-[rgba(51,102,204,0.08)] px-5 pb-5 pt-4">
                     {section.items.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-slate-400">
                         <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-secondary" />

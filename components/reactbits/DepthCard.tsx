@@ -13,7 +13,7 @@ interface DepthCardProps {
 export function DepthCard({
   children,
   className,
-  glowColor = 'rgba(105,106,172,0.25)',
+  glowColor = 'rgba(51,102,204,0.25)',
   intensity = 8,
 }: DepthCardProps) {
   const cardRef = useRef<HTMLDivElement>(null)

@@ -77,7 +77,7 @@ export function AskAtomRail({ proposalToken, className }: { proposalToken: strin
       ref={containerRef}
       className={cn(
         'flex h-[490px] flex-col rounded-2xl border bg-foreground/[0.02] transition-all duration-500',
-        highlighted ? 'border-accent/60 shadow-[0_0_30px_rgba(105,106,172,0.25)]' : 'border-foreground/10',
+        highlighted ? 'border-accent/60 shadow-[0_0_30px_rgba(51,102,204,0.25)]' : 'border-foreground/10',
         className
       )}
     >

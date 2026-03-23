@@ -97,7 +97,7 @@ export function RolloutPlan({ content }: RolloutPlanProps) {
           <div
             className="absolute left-[19px] top-6 bottom-6 w-px md:left-1/2 md:-translate-x-1/2"
             style={{
-              background: 'linear-gradient(to bottom, rgba(105,106,172,0.25) 0%, rgba(105,106,172,0.10) 100%)',
+              background: 'linear-gradient(to bottom, rgba(51,102,204,0.25) 0%, rgba(51,102,204,0.10) 100%)',
             }}
           />
 

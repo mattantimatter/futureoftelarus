@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   title: 'Telarus × Antimatter AI — ATOM Deployment Proposal',
   icons: { icon: '/icon.png', apple: '/icon.png' },
   description:
-    'A comprehensive upgrade of IQA, Competitive Matrices, and Atlas through Antimatter AI\'s ATOM agentic platform. Transform Trusted Advisor discovery through agentic AI.',
+    'A comprehensive upgrade of IQA, Competitive Matrices, and Quote Intelligence through Antimatter AI\'s ATOM agentic platform. Transform Trusted Advisor discovery through agentic AI.',
   metadataBase: new URL(SITE_URL),
   openGraph: {
     title: 'Telarus × Antimatter AI — ATOM Deployment Proposal',
     description:
-      'Deploy agentic AI into IQA, Competitive Matrices, and Atlas. Real-time discovery, same-session recommendations, and geospatial fiber intelligence.',
+      'Deploy agentic AI into IQA, Competitive Matrices, and Quote Intelligence. Real-time discovery, same-session recommendations, and AI-powered deal optimization.',
     siteName: 'Antimatter AI',
     url: SITE_URL,
     type: 'website',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Telarus × Antimatter AI — ATOM Deployment Proposal',
-    description: 'Deploy agentic AI for IQA + Competitive Matrices + Atlas geospatial intelligence.',
+    description: 'Deploy agentic AI for IQA + Competitive Matrices + Quote Intelligence.',
     images: ['/og-image.png'],
   },
 }

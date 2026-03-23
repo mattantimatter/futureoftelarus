@@ -57,7 +57,7 @@ export function DeploymentSecurity({ content }: DeploymentSecurityProps) {
               <div className="mb-4 flex items-start justify-between">
                 <div
                   className="flex h-10 w-10 items-center justify-center rounded-xl"
-                  style={{ background: 'rgba(105,106,172,0.12)' }}
+                  style={{ background: 'rgba(51,102,204,0.12)' }}
                 >
                   <ProposalIcon name={feature.icon} size={20} className="text-tertiary" />
                 </div>

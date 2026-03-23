@@ -64,7 +64,7 @@ export function Tabs({ tabs, activeTab, onTabChange, className, variant = 'pills
           className={cn(
             'flex items-center gap-2 whitespace-nowrap rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200',
             current === tab.id
-              ? 'bg-accent-soft text-foreground shadow-accent-glow bg-[rgba(105,106,172,0.15)] text-secondary'
+              ? 'bg-accent-soft text-foreground shadow-accent-glow bg-[rgba(51,102,204,0.15)] text-secondary'
               : 'text-foreground/40 hover:bg-foreground/5 hover:text-foreground/70'
           )}
         >

@@ -55,11 +55,11 @@ export function HeroSection({ content, proposalToken, sourcePdfDownloadUrl }: He
     >
       {/* Ambient backgrounds */}
       <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 80% 60% at 50% -10%, rgba(62,63,126,0.22) 0%, transparent 70%)' }} />
-        <div className="absolute inset-0 animate-aurora-1" style={{ background: 'radial-gradient(ellipse 50% 40% at 80% 60%, rgba(105,106,172,0.08) 0%, transparent 70%)', filter: 'blur(40px)' }} />
+        <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 80% 60% at 50% -10%, rgba(26,40,86,0.22) 0%, transparent 70%)' }} />
+        <div className="absolute inset-0 animate-aurora-1" style={{ background: 'radial-gradient(ellipse 50% 40% at 80% 60%, rgba(51,102,204,0.08) 0%, transparent 70%)', filter: 'blur(40px)' }} />
       </div>
       <div className="pointer-events-none absolute inset-0 transition-opacity duration-500"
-        style={{ opacity: isHovered ? 1 : 0, background: `radial-gradient(ellipse 55% 45% at ${mousePos.x}% ${mousePos.y}%, rgba(105,106,172,0.14) 0%, transparent 70%)` }}
+        style={{ opacity: isHovered ? 1 : 0, background: `radial-gradient(ellipse 55% 45% at ${mousePos.x}% ${mousePos.y}%, rgba(51,102,204,0.14) 0%, transparent 70%)` }}
         aria-hidden="true" />
       <div className="pointer-events-none absolute inset-0 opacity-[0.02]"
         style={{ backgroundImage: 'linear-gradient(rgba(246,246,253,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(246,246,253,0.6) 1px, transparent 1px)', backgroundSize: '80px 80px' }}
@@ -94,7 +94,7 @@ export function HeroSection({ content, proposalToken, sourcePdfDownloadUrl }: He
         <div className="mx-auto flex max-w-3xl flex-col items-center">
           <div
             className="relative w-full overflow-hidden rounded-2xl border border-white/[0.10]"
-            style={{ boxShadow: '0 20px 80px rgba(0,0,0,0.7), 0 0 60px rgba(105,106,172,0.12)', aspectRatio: '16/9' }}
+            style={{ boxShadow: '0 20px 80px rgba(0,0,0,0.7), 0 0 60px rgba(51,102,204,0.12)', aspectRatio: '16/9' }}
           >
             {hasVideo && isIframe(content.videoUrl!) ? (
               <iframe src={content.videoUrl} className="h-full w-full"

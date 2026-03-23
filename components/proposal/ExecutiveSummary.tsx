@@ -43,7 +43,7 @@ export function ExecutiveSummary({ content }: ExecutiveSummaryProps) {
               <div className="flex gap-5 p-6">
                 <div
                   className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl"
-                  style={{ background: 'rgba(105,106,172,0.15)' }}
+                  style={{ background: 'rgba(51,102,204,0.15)' }}
                 >
                   <ProposalIcon name={bullet.icon} size={22} className="text-tertiary" />
                 </div>

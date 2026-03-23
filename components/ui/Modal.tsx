@@ -45,7 +45,7 @@ export function Modal({ open, onClose, title, description, children, size = 'md'
           sizeStyles[size],
           className
         )}
-        style={{ boxShadow: '0 25px 80px rgba(0,0,0,0.7), 0 0 40px rgba(105,106,172,0.06)' }}
+        style={{ boxShadow: '0 25px 80px rgba(0,0,0,0.7), 0 0 40px rgba(51,102,204,0.06)' }}
       >
         {(title || description) && (
           <div className="border-b border-foreground/[0.08] px-6 py-5">

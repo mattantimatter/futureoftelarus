@@ -31,8 +31,8 @@ interface ATOMFrameworkProps {
 }
 
 const colorMap: Record<string, { accent: 'accent' | 'secondary' | 'green'; glow: string; badge: 'accent' | 'secondary' | 'green'; text: string }> = {
-  purple: { accent: 'accent', glow: 'rgba(105,106,172,0.3)', badge: 'accent', text: 'text-tertiary' },
-  indigo: { accent: 'secondary', glow: 'rgba(62,63,126,0.3)', badge: 'secondary', text: 'text-indigo-300' },
+  purple: { accent: 'accent', glow: 'rgba(51,102,204,0.3)', badge: 'accent', text: 'text-tertiary' },
+  indigo: { accent: 'secondary', glow: 'rgba(26,40,86,0.3)', badge: 'secondary', text: 'text-indigo-300' },
   green: { accent: 'green', glow: 'rgba(16,185,129,0.3)', badge: 'green', text: 'text-emerald-300' },
 }
 
@@ -70,7 +70,7 @@ export function ATOMFramework({ content }: ATOMFrameworkProps) {
                     'flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold transition-all cursor-pointer',
                     activePillar === pillar.id
                       ? 'border-accent/60 bg-accent/15 text-white'
-                      : 'border-[rgba(105,106,172,0.2)] bg-[rgba(10,10,15,0.6)] text-slate-300 hover:text-white'
+                      : 'border-[rgba(51,102,204,0.2)] bg-[rgba(10,10,15,0.6)] text-slate-300 hover:text-white'
                   )}
                   onClick={() => setActivePillar(activePillar === pillar.id ? null : pillar.id)}
                 >
@@ -101,7 +101,7 @@ export function ATOMFramework({ content }: ATOMFrameworkProps) {
               >
                 {/* Step number + badge + example link */}
                 <div className="mb-5 flex items-start justify-between gap-2">
-                  <span className="font-mono text-5xl font-black text-[rgba(105,106,172,0.12)]">
+                  <span className="font-mono text-5xl font-black text-[rgba(51,102,204,0.12)]">
                     {pillar.step}
                   </span>
                   <div className="flex flex-col items-end gap-1.5">
@@ -112,7 +112,7 @@ export function ATOMFramework({ content }: ATOMFrameworkProps) {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="flex items-center gap-1 rounded-lg border border-accent/50 bg-accent/20 px-2 py-1 text-[10px] font-semibold text-secondary shadow-[0_0_16px_rgba(105,106,172,0.4),0_0_32px_rgba(105,106,172,0.2)] transition-all hover:border-accent hover:bg-accent/30 hover:shadow-[0_0_20px_rgba(105,106,172,0.5),0_0_40px_rgba(105,106,172,0.25)] hover:text-foreground"
+                        className="flex items-center gap-1 rounded-lg border border-accent/50 bg-accent/20 px-2 py-1 text-[10px] font-semibold text-secondary shadow-[0_0_16px_rgba(51,102,204,0.4),0_0_32px_rgba(51,102,204,0.2)] transition-all hover:border-accent hover:bg-accent/30 hover:shadow-[0_0_20px_rgba(51,102,204,0.5),0_0_40px_rgba(51,102,204,0.25)] hover:text-foreground"
                       >
                         <ExternalLink size={9} />
                         {pillar.exampleLabel ?? 'View Example'}
@@ -139,7 +139,7 @@ export function ATOMFramework({ content }: ATOMFrameworkProps) {
                 <p className="mb-5 text-sm leading-relaxed text-slate-400">{pillar.description}</p>
 
                 {/* Capabilities list */}
-                <div className="space-y-2 border-t border-[rgba(105,106,172,0.1)] pt-4">
+                <div className="space-y-2 border-t border-[rgba(51,102,204,0.1)] pt-4">
                   {pillar.capabilities.map((cap) => (
                     <div key={cap} className="flex items-start gap-2 text-xs text-slate-400">
                       <Check size={12} className={cn('mt-0.5 shrink-0', c.text)} />

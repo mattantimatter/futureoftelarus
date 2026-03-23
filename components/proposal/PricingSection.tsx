@@ -75,8 +75,8 @@ export function PricingSection({ content, proposalToken }: PricingSectionProps) 
               className={cn(
                 'relative overflow-hidden rounded-2xl border transition-all duration-300',
                 tier.highlight
-                  ? 'border-accent/40 bg-gradient-to-b from-accent/10 to-[rgba(10,10,15,0.8)] shadow-[0_0_40px_rgba(105,106,172,0.2)]'
-                  : 'border-[rgba(105,106,172,0.12)] bg-[rgba(10,10,15,0.5)] hover:border-[rgba(105,106,172,0.25)]'
+                  ? 'border-accent/40 bg-gradient-to-b from-accent/10 to-[rgba(10,10,15,0.8)] shadow-[0_0_40px_rgba(51,102,204,0.2)]'
+                  : 'border-[rgba(51,102,204,0.12)] bg-[rgba(10,10,15,0.5)] hover:border-[rgba(51,102,204,0.25)]'
               )}
             >
               {tier.highlight && (
@@ -95,7 +95,7 @@ export function PricingSection({ content, proposalToken }: PricingSectionProps) 
                         href={tier.exampleUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1 rounded-lg border border-accent/50 bg-accent/20 px-2.5 py-1 text-xs font-semibold text-secondary shadow-[0_0_16px_rgba(105,106,172,0.4),0_0_32px_rgba(105,106,172,0.2)] transition-all hover:border-accent hover:bg-accent/30 hover:shadow-[0_0_20px_rgba(105,106,172,0.5),0_0_40px_rgba(105,106,172,0.25)] hover:text-foreground"
+                        className="flex items-center gap-1 rounded-lg border border-accent/50 bg-accent/20 px-2.5 py-1 text-xs font-semibold text-secondary shadow-[0_0_16px_rgba(51,102,204,0.4),0_0_32px_rgba(51,102,204,0.2)] transition-all hover:border-accent hover:bg-accent/30 hover:shadow-[0_0_20px_rgba(51,102,204,0.5),0_0_40px_rgba(51,102,204,0.25)] hover:text-foreground"
                       >
                         <ExternalLink size={10} />
                         {tier.exampleLabel ?? 'View Example'}
@@ -168,7 +168,7 @@ export function PricingSection({ content, proposalToken }: PricingSectionProps) 
         )}
 
         {/* Payment schedule */}
-        <div className="rounded-2xl border border-[rgba(105,106,172,0.12)] bg-[rgba(10,10,15,0.4)] p-6">
+        <div className="rounded-2xl border border-[rgba(51,102,204,0.12)] bg-[rgba(10,10,15,0.4)] p-6">
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-widest text-secondary">
             Payment Schedule
           </h4>
@@ -176,7 +176,7 @@ export function PricingSection({ content, proposalToken }: PricingSectionProps) 
             {content.paymentSchedule.map((item, i) => (
               <div
                 key={item.milestone}
-                className="flex items-center gap-3 rounded-xl border border-[rgba(105,106,172,0.1)] bg-[rgba(2,2,2,0.4)] p-4"
+                className="flex items-center gap-3 rounded-xl border border-[rgba(51,102,204,0.1)] bg-[rgba(2,2,2,0.4)] p-4"
               >
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/15 text-sm font-bold text-tertiary">
                   {i + 1}

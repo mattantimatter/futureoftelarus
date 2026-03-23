@@ -9,13 +9,13 @@ interface BadgeProps {
 }
 
 const variantStyles = {
-  accent: 'bg-[rgba(105,106,172,0.15)] text-secondary border border-[rgba(105,106,172,0.25)]',
+  accent: 'bg-[rgba(51,102,204,0.15)] text-secondary border border-[rgba(51,102,204,0.25)]',
   secondary: 'bg-[rgba(162,163,233,0.10)] text-tertiary border border-[rgba(162,163,233,0.20)]',
   green: 'bg-green-500/10 text-green-400 border border-green-500/20',
   amber: 'bg-yellow-500/10 text-yellow-400 border border-yellow-500/20',
   red: 'bg-red-500/10 text-red-400 border border-red-500/20',
   muted: 'bg-foreground/5 text-foreground/50 border border-foreground/10',
-  outline: 'bg-transparent text-secondary border border-[rgba(105,106,172,0.30)]',
+  outline: 'bg-transparent text-secondary border border-[rgba(51,102,204,0.30)]',
 }
 
 const sizeStyles = {

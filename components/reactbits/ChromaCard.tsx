@@ -12,14 +12,14 @@ interface ChromaCardProps {
 
 const accentMap = {
   accent: {
-    border: 'border-[rgba(105,106,172,0.20)]',
-    bg: 'from-[rgba(105,106,172,0.08)]',
-    glow: 'hover:shadow-[0_0_25px_rgba(105,106,172,0.12)]',
+    border: 'border-[rgba(51,102,204,0.20)]',
+    bg: 'from-[rgba(51,102,204,0.08)]',
+    glow: 'hover:shadow-[0_0_25px_rgba(51,102,204,0.12)]',
   },
   primary: {
-    border: 'border-[rgba(62,63,126,0.25)]',
-    bg: 'from-[rgba(62,63,126,0.08)]',
-    glow: 'hover:shadow-[0_0_25px_rgba(62,63,126,0.12)]',
+    border: 'border-[rgba(26,40,86,0.25)]',
+    bg: 'from-[rgba(26,40,86,0.08)]',
+    glow: 'hover:shadow-[0_0_25px_rgba(26,40,86,0.12)]',
   },
   green: {
     border: 'border-emerald-500/20',

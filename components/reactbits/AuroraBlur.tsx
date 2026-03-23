@@ -21,7 +21,7 @@ export function AuroraBlur({ className, children, intensity = 'medium' }: Aurora
         <div
           className="animate-aurora-1 absolute -top-1/4 left-1/4 h-[500px] w-[500px] rounded-full"
           style={{
-            background: 'radial-gradient(ellipse, rgba(105,106,172,0.55) 0%, rgba(62,63,126,0.2) 45%, transparent 70%)',
+            background: 'radial-gradient(ellipse, rgba(51,102,204,0.55) 0%, rgba(26,40,86,0.2) 45%, transparent 70%)',
             filter: 'blur(90px)',
           }}
         />
@@ -29,7 +29,7 @@ export function AuroraBlur({ className, children, intensity = 'medium' }: Aurora
         <div
           className="animate-aurora-2 absolute right-1/4 top-1/3 h-[400px] w-[400px] rounded-full"
           style={{
-            background: 'radial-gradient(ellipse, rgba(62,63,126,0.45) 0%, transparent 70%)',
+            background: 'radial-gradient(ellipse, rgba(26,40,86,0.45) 0%, transparent 70%)',
             filter: 'blur(100px)',
           }}
         />
