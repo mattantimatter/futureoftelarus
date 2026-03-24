@@ -13,7 +13,7 @@ Telarus is the largest privately held technology services distributor (TSD) in t
 CONTEXT — WHAT THIS PROPOSAL IS:
 Antimatter AI proposes deploying ATOM (Agentic Technology Orchestration Model) to transform GeoQuote's three functional pillars:
 
-1. ATOM INTENTIQ ($700K) — Transform static Intelligent Qualification Assessment intake forms into guided conversation flows. Advisors currently spend 60+ minutes on manual assessments. Atom IntentIQ reduces this to 20-25 minutes with real-time coaching, adaptive question sequencing, and automated post-call artifacts (recommendation briefs, customer emails, engineering packets) generated in <5 minutes instead of 3-5 days.
+1. ATOM INTENTIQ ($700K) — Transform static discovery intake forms into guided conversation flows. Advisors currently spend 60+ minutes on manual assessments. Atom IntentIQ reduces this to 20-25 minutes with real-time coaching, adaptive question sequencing, and automated post-call artifacts (recommendation briefs, customer emails, engineering packets) generated in <5 minutes instead of 3-5 days.
 
 2. ATOM DIFFERENTIATE ($650K) — Transform manual provider comparison from a 3-5 day deliverable into a live, real-time decision tool. Providers re-rank instantly as discovery data changes. "Ask the Matrix" lets advisors query providers in natural language with citations. Controlled GenUI components (ProviderCard, ComparisonTable, FitMatrixPlot, ObjectionPlaybook) ensure deterministic, trustworthy output.
 

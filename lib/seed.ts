@@ -78,7 +78,7 @@ Document Classification: Confidential.`,
           {
             icon: 'alert',
             title: 'Current State: Three Critical Friction Points',
-            body: 'Intelligent Qualification Assessments require 60+ minutes as static intake forms. Provider comparisons have 3-5 day manual turnarounds. GeoQuote lacks the interactive geospatial intelligence needed to identify optimal fiber routes and data centers. Together, these create cognitive overload for Trusted Advisors, kill deal momentum, and position GeoQuote as transactional rather than transformational.',
+            body: 'Discovery assessments require 60+ minutes as static intake forms. Provider comparisons have 3-5 day manual turnarounds. GeoQuote lacks the interactive geospatial intelligence needed to identify optimal fiber routes and data centers. Together, these create cognitive overload for Trusted Advisors, kill deal momentum, and position GeoQuote as transactional rather than transformational.',
           },
           {
             icon: 'zap',
