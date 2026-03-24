@@ -18,7 +18,7 @@ const DEFAULT_MATRIX: MatrixRow[] = [
   { capability: 'Zero training on your data', atom: 'yes', typical: 'no' },
   { capability: 'Model-agnostic (swap providers)', atom: 'yes', typical: 'no', note: 'Vendor-locked LLM' },
   { capability: 'RBAC + immutable audit trail', atom: 'yes', typical: 'partial' },
-  { capability: 'AI-powered quote optimization', atom: 'yes', typical: 'no' },
+  { capability: 'Geospatial / Atom GIS intelligence', atom: 'yes', typical: 'no' },
   { capability: 'Real-time advisor coaching', atom: 'yes', typical: 'no' },
   { capability: 'Deterministic workflow engine', atom: 'yes', typical: 'no' },
   { capability: 'Human-in-the-loop approvals', atom: 'yes', typical: 'partial' },
