@@ -7,10 +7,10 @@ import { cn } from '@/lib/utils'
 interface Message { role: 'user' | 'assistant'; content: string }
 
 const CHIPS = [
-  { label: 'How does ATOM handle security?', key: 'security' },
-  { label: 'What deployment options exist?', key: 'deployment' },
+  { label: 'What is Atom IntentIQ?', key: 'intentiq' },
+  { label: 'How does Atom Differentiate work?', key: 'differentiate' },
+  { label: 'What can Atom GIS do?', key: 'gis' },
   { label: 'How is pricing structured?', key: 'pricing' },
-  { label: 'Is ATOM HIPAA-compatible?', key: 'hipaa' },
 ]
 
 export function AskAtomRail({ proposalToken, className }: { proposalToken: string; className?: string }) {
@@ -89,7 +89,7 @@ export function AskAtomRail({ proposalToken, className }: { proposalToken: strin
           </div>
           <div>
             <p className="text-sm font-semibold text-foreground">Ask Atom</p>
-            <p className="text-xs text-foreground/30">Powered by ATOM IntentIQ</p>
+            <p className="text-xs text-foreground/30">Powered by ATOM</p>
           </div>
         </div>
         <button onClick={() => setOpen(false)} className="text-foreground/30 hover:text-foreground/60">

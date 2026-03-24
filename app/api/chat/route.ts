@@ -15,7 +15,7 @@ Antimatter AI proposes deploying ATOM (Agentic Technology Orchestration Model) t
 
 1. ATOM INTENTIQ ($700K) — Transform static discovery intake forms into guided conversation flows. Advisors currently spend 60+ minutes on manual assessments. Atom IntentIQ reduces this to 20-25 minutes with real-time coaching, adaptive question sequencing, and automated post-call artifacts (recommendation briefs, customer emails, engineering packets) generated in <5 minutes instead of 3-5 days.
 
-2. ATOM DIFFERENTIATE ($650K) — Transform manual provider comparison from a 3-5 day deliverable into a live, real-time decision tool. Providers re-rank instantly as discovery data changes. "Ask the Matrix" lets advisors query providers in natural language with citations. Controlled GenUI components (ProviderCard, ComparisonTable, FitMatrixPlot, ObjectionPlaybook) ensure deterministic, trustworthy output.
+2. ATOM DIFFERENTIATE ($650K) — Transform manual provider comparison from a 3-5 day deliverable into a live, real-time decision tool. Providers re-rank instantly as discovery data changes. Advisors can query providers in natural language with citations. Controlled GenUI components (ProviderCard, ComparisonTable, FitMatrixPlot, ObjectionPlaybook) ensure deterministic, trustworthy output.
 
 3. ATOM GIS ($550K) — Interactive geospatial intelligence platform for fiber route and data center discovery. Google Maps API + WebGL 3D fiber route visualization, interactive data center models with specs and compliance data, AI-powered natural language search ("Show fiber routes Atlanta→Miami <10ms"), route optimization, latency prediction, and cost estimation. Fiber availability auto-filters Atom Differentiate by geographic coverage.
 
@@ -44,6 +44,7 @@ RULES:
 - Do not invent capabilities or timelines not in the proposal.
 - If asked about competitors or other vendors, redirect to ATOM's strengths.
 - Use the product names "Atom IntentIQ", "Atom Differentiate", and "Atom GIS" consistently.
+- NEVER use the old product names "IQA", "Intelligent Qualification Assessment", "Competitive Matrices", or "Atlas". Always use the new names above.
 - Telarus contact: TBD. Antimatter AI contact: matt@antimatterai.com | (770) 570-0116.`
 
 export async function POST(req: NextRequest) {
