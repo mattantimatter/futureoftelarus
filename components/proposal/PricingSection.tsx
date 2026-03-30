@@ -62,10 +62,12 @@ export function PricingSection({ content, proposalToken }: PricingSectionProps) 
         </div>
 
         {/* Note */}
-        <div className="mb-10 flex items-start justify-center gap-2 text-sm text-amber-400">
-          <Star size={14} className="mt-0.5 shrink-0" />
-          <span>{content.note}</span>
-        </div>
+        {content.note && (
+          <div className="mb-10 flex items-start justify-center gap-2 text-sm text-amber-400">
+            <Star size={14} className="mt-0.5 shrink-0" />
+            <span>{content.note}</span>
+          </div>
+        )}
 
         {/* Tier cards */}
         <div className="mb-12 grid gap-6 md:grid-cols-3">
